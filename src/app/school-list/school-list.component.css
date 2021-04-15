@@ -1,0 +1,62 @@
+*{
+    border: 0;
+    padding: 0;
+    position: static;
+}
+
+.school-list-page{
+    background: url("../../assets/images/CRV.jpg" );
+    background-origin: content-box;
+    height:100vh;
+    background-size: cover;
+    background-position: 0vmax;
+}
+
+.Header{
+  font-size: x-large;
+    background:rgb(243, 180, 6) ;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    display: block;
+    align-items: center;    
+    
+}
+
+.Header h3{
+    margin: 1% 46%;
+}
+
+.Header h4{
+    margin: 1% 47.5%;
+}
+
+.btn{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.btn button{
+    font-size: large;
+    height: 60px;
+    width: 793px;
+    margin: 14px 343px;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid black;
+    border-radius: 20px;
+    display: list-item;
+    z-index: -1;
+}
+
+
+
+.btn li a{
+    text-decoration: none;
+    color: black;
+}
+.btn button:hover{
+    background-color: rgb(255, 229, 157);
+    opacity: 0.9;
+    
+}

@@ -1,0 +1,796 @@
+
+{
+    "school" :  [
+        {
+            "name": "UWC Mahindra School",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "UMS.txt",
+            "board": "CBSE",
+            "image": "UMS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "info@muwci.net",
+            "contact": "97644 42751 - 54",
+            "address": "Village Khubavali, PO Paud Taluka Mulshi, Pune, MH 412 108, India"
+                        
+        },
+        {
+            "name": "Sahyadri School",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "SS.txt",
+            "board": "ICSE",
+            "image": "SS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "office@sahyadrischool.org",
+            "contact": "+91 9422304265 / +91 9422304267",
+            "address": "Post : Tiwai Hill, Tal : Rajgurunagar (Khed), Dist : Pune, Pin – 410513, Maharashtra, India"
+        },
+        {
+            "name": "Indus International",
+            "location": "Pune",
+            "block": "Baramati",
+            "information": "II.txt",
+            "board": "ICSE",
+            "image": "II.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "ADMISSIONS@INDUSSCHOOLPUNE.COM",
+            "contact": " +91 - 7507078629",
+            "address": "576, BHUKUM, TAL, MULSHI RD, PUNE, MAHARASHTRA 412115"
+           
+        },
+        {
+            "name": "St. Mary's School",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "SMS.txt",
+            "board": "ICSE",
+            "image": "SMS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "info@smspune.com",
+            "contact": " +91 - (0)20 - 26356282",
+            "address": "5B, General Bhagat Marg, Camp, Pune, 411001"
+            
+        },
+     
+
+            
+            
+       
+        {
+            "name": "Army Public School",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "APS.txt",
+            "board": "CBSE",
+            "image": "APS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "abc@gmail",
+            "contact": "2342",
+            "address": "fsghshs"
+        },
+        {
+            "name": "Gurukul English Medium School",
+            "location": "Pune",
+            "block": "Bhor",
+            "information": "GEMS.txt",
+            "board": "SSC",
+            "image": "GEMS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "--",
+            "contact": "94049 62741 ",
+            "address": "Waghjai Nagar, Bhor, Maharashtra 412206"
+        },
+        {
+            "name": "Jijamata Vidyalay",
+            "location": "Pune",
+            "block": "Bhor",
+            "information": "JV.txt",
+            "board": "SSC",
+            "image": "JV.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "-",
+            "address": " Bhor, Maharashtra 412206"
+            
+        },
+        {
+            "name": "Shri Chhatrapati Shivaji School ",
+            "location": "Pune",
+            "block": "Bhor",
+            "information": "SCSS.txt",
+            "board": "SSC",
+            "image": "SCSS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "-",
+            "address": "Bhor, Maharashtra 412206"
+        },
+        {
+            "name": "Vidya Pratishthan's New English Medium School",
+            "location": "Pune",
+            "block": "Baramati",
+            "information": "VPNEMS.txt",
+            "board": "SSC",
+            "image": "VPNEMS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "02112 239 275",
+            "address": " Vidya Nagari, Baramati, Maharashtra 413133"
+            
+        },
+        {
+            "name": "MES Haribhau Gajanan Deshpande School",
+            "location": "Pune",
+            "block": "Baramati",
+            "information": "MHGDS.txt",
+            "board": "SSC",
+            "image": "MHGDS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "02112 222 352",
+            "address": "Bhigwan Road, Opposite Railway Station, Baramati, Maharashtra "
+           
+        },
+        {
+            "name": "Anekant English Medium School ",
+            "location": "Pune",
+            "block": "Baramati",
+            "information": "AEMS.txt",
+            "board": "SSC",
+            "image": "AEMS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "anekantems@gmail.com ",
+            "contact": "02112-221305",
+            "address": " TC College, Baramati, Maharashtra 413102 "
+           
+        },
+        {
+            "name": "Active Kids School ",
+            "location": "Pune",
+            "block": "Baramati",
+            "information": "AKS.txt",
+            "board": "SSC",
+            "image": "AKS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "02112 244 688",
+            "address": "Active building, Near Patil Plaza, in front of Dynamix Colony, behind Jalochi Road, Suryanagari, Baramati, Maharashtra 411037 "
+           
+        },
+        {
+            "name": "Sharadabai Pawar Vidyamandir ",
+            "location": "Pune",
+            "block": "Baramati",
+            "information": "SPV.txt",
+            "board": "SSC",
+            "image": "SPV.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "2112 254832 ",
+            "address": " Nira-Baramati Rd, Malegaon colony, Shardanagar Campus, Baramati, Maharashtra 413115"
+            
+        },
+        {
+            "name": "Podar International School",
+            
+            "location": "Pune",
+            "block": "Baramati",
+            "information": "PISB.txt",
+            "board": "CBSE",
+            "image": "PISB.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "admissions@podar.org ",
+            "contact": "6366438024 ",
+            "address": "Gat No-612, Bandalwadi (Gunawadi),Indapur Road, Baramati - 413102.Maharashtra."
+
+
+
+        },
+        {
+            "name": "Zainabia English Medium School",
+            "location": "Pune",
+            "block": "Baramati",
+            "information": "ZEMS.txt",
+            "board": "CBSE",
+            "image": "ZEMS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": " support@zainabiaschool.com",
+            "contact": "94043 77722",
+            "address": "gat No 19, Rui-Katphal- Katphal,, Patas Rd, Baramati, Maharashtra 413102"
+            
+        },
+        {
+            "name": "New Bal Vikas Mandir",
+            "location": "Pune",
+            "block": "Baramati",
+            "information": "NBVM.txt",
+            "board": "CBSE",
+            "image": "NBVM.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "02112 221 920 ",
+            "address": " Indapur Road, Pimpali Rd, Baramati, Maharashtra 413102 "
+           
+        },
+        {
+            "name": "The Buddhist International School",
+            "location": "Pune",
+            "block": "Baramati",
+            "information": "TBIS.txt",
+            "board": "CBSE",
+            "image": "TBIS.txt",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "073878 84060 ",
+            "address": "tal baramati malegaon bk!, Malegaon - Karhavagaj Road, Nira-Baramati Rd, Opposite New ST stand, Baramati, Maharashtra 413115"
+            
+        },
+        {
+            "name": "",
+            "location": "",
+            "block": "",
+            "information": "",
+            "board": "",
+            "image": "",
+            "typeOfSchool": "co-ed",
+            "email": "",
+            "contact": "",
+            "address": ""
+        },
+        {
+            "name": "Bhave school",
+            "location": "Pune",
+            "block": "Bibvadi",
+            "information": "dadkad",
+            "board": "CBSE",
+            "image": "bs.png",
+            "typeOfSchool": "co-ed",
+            "email": "baga@gmail",
+            "contact": "667867",
+            "address": "gshjsjsbsb"
+        },
+        {
+            "name": "City Internation School",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "dadkad",
+            "board": "SSC",
+            "image": "cis.png",
+            "typeOfSchool": "co-ed",
+            "email": "fsgsh@gmail",
+            "contact": "78878",
+            "address": "dstfgh"
+        },
+        {
+            "name": "City Internation School",
+            "location": "Mumbai",
+            "block": "Pimpri",
+            "information": "dadkad",
+            "board": "SSC",
+            "image": "CIS.png",
+            "typeOfSchool": "co-ed",
+            "email": "hxgvv@gmail",
+            "contact": "5727262",
+            "address": "526272"
+        }
+    ],
+
+
+    "college" :  [
+        {
+            "name": "Apte Prashala",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "AP.txt",
+            "board": "HSC",
+            "image": "AP.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "info@apteprashala.org",
+            "contact": "+91-020-25531996",
+            "address": "Deccan Gymkhana, Pune 411004"
+        },
+        {
+            "name": "Fergusson College",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "FC.txt",
+            "board": "HSC",
+            "image": "FC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "principal@fergusson.edu",
+            "contact": "020-67656000",
+            "address": "F.C. Road, Pune 411004"
+            
+        },
+        {
+            "name": "Jai Hind College",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "JHC.txt",
+            "board": "HSC",
+            "image": "JHC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "contactus@jaihindcollege.edu.in",
+            "contact": "(91-22) 22041095 / 0256",
+            "address": "Deluxe Road, Pimpri Pune"
+           
+        },
+        {
+            "name": "Modern College",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "MC.txt",
+            "board": "HSC",
+            "image": "MC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "hodcompsci@moderncollegepune.edu.in",
+            "contact": "(+9120) 2553 5468 / 2553 5102 / 2553 5927",
+            "address": "Shivajinagar, Pune 411005"
+        },
+        {
+            "name": "Symbiosis College",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "SC.txt",
+            "board": "HSC",
+            "image": "SC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "contact@symbiosiscollege.edu.in",
+            "contact": "(+91) 901 105 9219",
+            "address": "Senapati Bapat Road, Pune - 411004"
+                                   
+        },
+        {
+            "name": "Nowrosjee Wadia College",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "NWC.txt",
+            "board": "HSC",
+            "image": "NWC.txt",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "(020) – 26162944",
+            "address": "19, Late Prin. V. K. Joag Path, Pin – 411001 Pune"
+            
+        },
+        {
+            "name": "",
+            "location": "Pune",
+            "block": "",
+            "information": "",
+            "board": "",
+            "image": "",
+            "typeOfSchool": "co-ed",
+            "email": "",
+            "contact": "",
+            "address": ""
+        },
+        {
+            "name": "",
+            "location": "Pune",
+            "block": "",
+            "information": "",
+            "board": "",
+            "image": "",
+            "typeOfSchool": "co-ed",
+            "email": "",
+            "contact": "",
+            "address": ""
+        }
+    ],
+
+
+    "coaching" :  [
+        {
+            "name": "Rao IIT",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "RI.txt",
+            "board": "CBSE",
+            "image": "RI.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "+91-7045911439, +91-8879694274, +91-9152051652",
+            "address": "Near Pulgate Bus Stop, Camp, Pune - 411001"
+            
+        },
+        {
+            "name": "Bakliwal Tutorials",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "BTP.txt",
+            "board": "CBSE",
+            "image": "BTP.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "info@bakliwaltutorialsiit.com",
+            "contact": "8888866189 / 8888828145",
+            "address": "Ambedkar Sanskrutik Bhawan,Pune 411011."
+        },
+        {
+            "name": "Rajat Academy",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "RA.txt",
+            "board": "CBSE",
+            "image": "RA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "info@rajatacademy.com",
+            "contact": "+91 9226 300 900",
+            "address": "Behind Navbhog Sweets, Sai Krupa Society, Opposite of Kunal Icon society, Pimple Saudagar, Pune 411027."
+            
+        },
+        {
+            "name": "Coepians Academy",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "CA.txt",
+            "board": "HSC",
+            "image": "CA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "admin@coepiansacademy.co.in",
+            "contact": "+91 744 744 7001, +91 855 498 8327",
+            "address": "Shiv Sai Lane, Pimple Saudagar, Pune"
+        },
+        {
+            "name": "Agarwal Classes",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "AC.txt",
+            "board": "HSC",
+            "image": "AC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "info@agrawalclasses.in",
+            "contact": "+91 88 88 688886 /  +918888884444",
+            "address": "3rd Floor, Kunal Plaza, Chinchwad Station, Chinchwad, pune-411019"
+        },
+        {
+            "name": "KALRA SHUKLA CLASSES",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "KSC.txt",
+            "board": "HSC",
+            "image": "KSC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "_",
+            "contact": "9872334695",
+            "address": "Gurukrupa Complex 2nd Floor, Fc Road, Shivaji Nagar, Pune - 411005, Near Royal Banqit Hall (Map)"
+        },
+        {
+            "name": "DNYANMUDRA TUTORIALS",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "DT.txt",
+            "board": "HSC",
+            "image": "DT.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "7947164038",
+            "address": "1263 2nd Floor Laxmi Sadan, Jangali Maharaj Road, Deccan Gymkhana, Pune - 411004"
+        },
+        {
+            "name": "BASIC TUTORIALS",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "BT.txt",
+            "board": "HSC",
+            "image": "BT.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "9890945983",
+            "address": "15 Shivmangal 1535, Tilak Road, Sadashiv Peth, Pune - 411030"
+        },
+        {
+            "name": "KHATAKVAR ACADEMY",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "KA.txt",
+            "board": "HSC",
+            "image": "KA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "_",
+            "contact": "7947209187",
+            "address": "1, Vitthal Residency, Sadashiv Peth, Pune - 411030, Near Chitrashala Chowk City Pride Shooes (Map)"
+        },
+        {
+            "name": "EDWARD ACADEMY",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "EA.txt",
+            "board": "HSC",
+            "image": "EA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "9892424588",
+            "address": "9, CST Road, Kurla West, Mumbai - 400070, Behind Bharat Cinema (Map)"
+        },
+        {
+            "name": "TOPPERS STUDENT ACADEMY ",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "TSA.txt",
+            "board": "HSC",
+            "image": "TSA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "7947204459",
+            "address": ": Upper Ground Floor, Raviraj CRU, Bibwewadi Kondhwa Road, Bibvewadi, Pune - 411037"
+        },
+        {
+            "name": "KHARE ACADEMY",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "KHA.txt",
+            "board": "HSC",
+            "image": "KHA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "7947202329",
+            "address": "Shop No 17, 18 Aditya Nakoda Enclave, Ganesh Mala, Sinhagad Road-Dattawadi, Pune - 411030"
+        },
+        {
+            "name": "ARISE ACADEMY ",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "AA.txt",
+            "board": "HSC",
+            "image": "AA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "9423191043",
+            "address": "Shop No 3 Mayur Samruddhi Bunty Group, Viveknagar, Akurdi, Pune - 411035"
+        },
+        {
+            "name": "CHATE COACHING CLASSES",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "CCCP.txt",
+            "board": "HSC",
+            "image": "CCCP.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "8149697789",
+            "address": "2nd Floor Mantri House Centre, Fergusson College Road Main Road, Shivaji Nagar, Pune - 411005"
+        },
+        {
+            "name": "SPRACHENFREUDE",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "SF.txt",
+            "board": "CBSE",
+            "image": "SF.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "9867172248",
+            "address": "1075 Venkatesh Regency, Tilak Road, Shukrawar Peth, Pune - 411002"
+        },
+        {
+            "name": "KHARE ACADEMY",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "KA.txt",
+            "board": "CBSE",
+            "image": "KA.txt",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "8825012249",
+            "address": "Shop No 17, 18 Aditya Nakoda Enclave, Ganesh Mala, Sinhagad Road-Dattawadi, Pune - 411030"
+        },
+        {
+            "name": "BASIC TUTORIALS",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "BT.txt",
+            "board": "CBSE",
+            "image": "BT.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "9890945983",
+            "address": "15 Shivmangal 1535, Tilak Road, Sadashiv Peth, Pune - 411030"
+        },
+        {
+            "name": "KUKARNI CLASSES",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "KC.txt",
+            "board": "CBSE",
+            "image": "KC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "93711174008",
+            "address": "833 Dattawadi, Kulkarni Classes Building, Dattawadi, Pune - 411030"
+        },
+        {
+            "name": "PRERNA CLASSES",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "PC.txt",
+            "board": "CBSE",
+            "image": "PC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "9984332743",
+            "address": "Dehu Phata, 1st Floor, Dehu Alandi Road, Alandi Devachi, Pune - 412105"
+        },
+        {
+            "name": "KHATAKVAR ACADEMY",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "KA.txt",
+            "board": "CBSE",
+            "image": "KA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "_",
+            "contact": "7947209187",
+            "address": "1, Vitthal Residency, Sadashiv Peth, Pune - 411030, Near Chitrashala Chowk City Pride Shooes (Map)"
+        },
+        {
+            "name": "PREP IIT",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "PI.txt",
+            "board": "CBSE",
+            "image": "PI.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": " 8169497819",
+            "address": "303/304 Fortuna Business Center, Pimple Saudagar, Pune - 411027"
+        },
+        {
+            "name": " PATHWAYS ACADEMY",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "PA.txt",
+            "board": "CBSE",
+            "image": "PA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "8166450009",
+            "address": "Office No 312 Sonigara Landmark, Wakad, Pune - 411057"
+        },
+        {
+            "name": "TOPPERS ACADEMY",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "TA.txt",
+            "board": "CBSE",
+            "image": "TA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "8146694572",
+            "address": "Upper Ground Floor, Raviraj CRU,  Kondhwa Roadi, Pune - 411037"
+        },
+        {
+            "name": "RAMANUJAN SCIENCE ACADEMY",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "RSA.txt",
+            "board": "CBSE",
+            "image": "RSA.txt",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "8265012234",
+            "address": "2nd Floor, 427, Near Kataria High School, Mukund Nagar, Pune - 411037"
+        },
+        {
+            "name": "PRATIBHA CLASSES",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "PCP.txt",
+            "board": "HSC",
+            "image": "PCP.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "9824279555",
+            "address": "Opposite Nootan Club, Vallabh Vidyanagar"
+        },
+        {
+            "name": "DURGA AND PK CLASSES",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "DAPC.txt",
+            "board": "HSC",
+            "image": "DAPC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "9822254316",
+            "address": "Chinchwad, Pune - 411033, Opposite Rotary Club Thermax Chowk Sambhaji Nagar"
+        },
+        {
+            "name": "SHRIRAM ACADEMY",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "SA.txt",
+            "board": "HSC",
+            "image": "SA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "7947208661",
+            "address": "Shivam Complex, Gadital, Hadapsar, Pune - 411028, Above Sadhana Bank (Map)"
+        },
+        {
+            "name": "LESSONS ACADEMY",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "LA.txt",
+            "board": "HSC",
+            "image": "LA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "7947208995",
+            "address": "Building Gagan Giri Apartment, Pimple Saudagar Road, Pimple Gurav, Pune - 411061"
+        },
+        {
+            "name": "RAJAT ACADEMY",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "RA.txt",
+            "board": "HSC",
+            "image": "RA.txt",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "7947143496",
+            "address": "206 Prime Square, Kunal Icon Road, Pimple Saudagar, Pune - 411027"
+        },
+        {
+            "name": "",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "",
+            "board": "HSC",
+            "image": "",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "",
+            "address": ""
+        },
+        {
+            "name": "",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "",
+            "board": "HSC",
+            "image": "",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "",
+            "address": ""
+        },
+        {
+            "name": "",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "",
+            "board": "HSC",
+            "image": "",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "",
+            "address": ""
+        },
+        {
+            "name": "",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "",
+            "board": "HSC",
+            "image": "",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "",
+            "address": ""
+        },
+        {
+            "name": "",
+            "location": "Pune",
+            "block": "Pimpri",
+            "information": "",
+            "board": "HSC",
+            "image": "",
+            "typeOfSchool": "co-ed",
+            "email": "-",
+            "contact": "",
+            "address": ""
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+
+ <div class="school-component">
+    <div class="wrapper">
+        <div class="title">
+            Search for {{ institute }}s
+        </div>
+        <div class="form">
+            <div class="inputfield">
+                <label for="a"> City</label>
+                <select [(ngModel)]="selectedCity" name="city" (change)="onCitySelection()">
+                    <option *ngFor="let city of cities" [ngValue]="city">{{ city }}</option>
+                </select>
+            </div>
+            <div class="inputfield">
+                <label for="b"> Block</label>
+                <select [(ngModel)]="selectedBlock" name="block" (change)="onBlockSelection()">
+                    <option *ngFor="let block of blocks" [ngValue]="block">{{ block }}</option>
+                </select>
+            </div>
+            <div class="inputfield">
+                <label for="c"> Board</label>
+                <select [(ngModel)]="selectedBoard" name="board" (change)="onBoardSelection()">
+                    <option *ngFor="let board of boards" [ngValue]="board">{{ board }}</option>
+                </select>
+            </div>
+            <div [ngClass]="isSearch? '' : 'disabled-input-field'"  class="inputfield">
+                <input type="button" value="search" class="btn" (click)="onSearchClick()">
+            </div>
+        </div>
+    </div>
+ </div>

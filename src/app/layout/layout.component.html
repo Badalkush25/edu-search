@@ -1,0 +1,29 @@
+<div class="layout">
+      <div class="background-img"></div>
+      <div class="main">
+        <div class="schoolbox">
+            <h1 class="schoolheading">top schools</h1>
+            <div *ngFor="let school of topSchools">
+                <button class="schoolbutton"  (click)="goToSchool(school)">{{ school }}</button>
+            </div>
+        </div>
+        <div class="collegebox">
+            <h1 class="collegeheading">top college</h1>
+            <div *ngFor="let college of topColleges">
+                <button class="collegebutton" (click)="goToCollege(college)">{{ college }}</button>
+            </div>
+        </div>
+        <div class="coachingbox">
+            <h1 class="coachingheading">top coaching</h1>
+            <div *ngFor="let coaching of topCoachings">
+                <button class="coachingbutton" (click)="goToCoaching(coaching)">{{ coaching }}</button>
+            </div>
+        </div>
+    </div>     
+    <footer>
+    <div class="foot">
+        website where you can find all information about school, college, coaching in pune
+    </div>
+    </footer>
+</div>
+

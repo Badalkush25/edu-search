@@ -1,0 +1,53 @@
+<!-- <div>
+    <nav>        
+        <div class="logo">
+            <img src="../../assets/images/1234.png" alt="" id="logo_img">
+            
+        <p>EduSearch</p> 
+        </div>
+        <div class="searchbar">
+            <form>
+                <input type="search" id="a" style="width:200% " class="search-data" placeholder="Search" >
+            </form>
+        </div>
+        <div class="navfield">
+            <li><a class="nav-a" routerLink="/home">home</input></li>
+            <li><a class="nav-a" routerLink="/search" onclick="openSearchFor(school);">school</input></li>
+            <li><a class="nav-a" routerLink="/search" (onclick)="openSearchFor(college)">college</input></li>
+            <li><a class="nav-a" routerLink="/search" (onclick)="openSearchFor(coaching)">coaching</input></li>
+            <li><a class="nav-a" routerLink="/about">about</input></li>
+        </div>
+    </nav>
+</div> -->
+
+<div class="nav-bar">
+    <div class="edu-logo">
+        <div class="logo-icon"><img src="../../assets/images/1234.png" alt="" id="logo_img"></div>
+        <div class="logo-text"><p>EduSearch</p></div>
+    </div>
+
+    <div class="search-bar">
+        <form>
+            <input type="search" id="a" class="search-data" placeholder="Search" >
+        </form>
+    </div>
+
+    <div class="navigation-buttons-container">
+        <div [ngClass]="isHomeActive? 'active-button': ''" class="nav-button">
+            <input type="button" value="home" (click)="openNav(home)">
+        </div>
+        <div [ngClass]="isSchoolActive? 'active-button': ''" class="nav-button">
+            <input type="button" value="school" (click)="openNav(school)">
+        </div>
+        <div [ngClass]="isCollegeActive? 'active-button': ''" class="nav-button">
+            <input type="button" value="college" (click)="openNav(college)">
+        </div>
+        <div [ngClass]="isCoachingActive? 'active-button': ''" class="nav-button">
+            <input type="button" value="coaching" (click)="openNav(coaching)">
+        </div>
+        <div [ngClass]="isAboutActive? 'active-button': ''" class="nav-button">
+            <input type="button" value="about" (click)="openNav(about)">
+        </div>
+    </div>
+
+</div>

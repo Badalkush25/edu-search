@@ -1,0 +1,26 @@
+<div class="institutebody">
+   <div class="wrapper">
+
+        <div class="name">
+            <h1 class="namee">{{ organizationDetails.name }}</h1><br>
+        </div>
+        <div class="image">
+            <img src="../../assets/images/{{organizationDetails.image}}" alt="blank">
+
+        </div>
+        <div class="info">
+            <ul class="infox">
+                <li><b>Type of school</b>: {{ organizationDetails.typeOfSchool }}</li>
+                <li><b>Email</b>: {{ organizationDetails.email }}</li>
+                <li><b>Contact</b>: {{ organizationDetails.contact }}</li>
+                <li><b>Address</b>: {{ organizationDetails.address }}</li>
+            </ul>
+        </div>
+        <div class="full">
+            <p>
+                {{ this.orgInfo }}
+            </p>
+        </div>
+
+    </div>
+</div>   

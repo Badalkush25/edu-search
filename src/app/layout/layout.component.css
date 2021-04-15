@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.layout {
+    background-image: url("../../assets/images/5251.jpg");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+
+.page-contents {
+    position: absolute;
+}
+.loginbox{
+    width: 400px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.6);
+    color:white;
+    top: 55%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+}
+
+.login-contents {
+    margin: 20px;
+}
+
+h1{
+    margin: 0;
+    padding:1px 1px 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+form{
+    margin: auto;
+}
+.loginbox{
+    margin:0;
+    padding:0;
+    font-weight: bold;
+
+}
+.loginbox input{
+    
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+.loginbox input[type="text"], input[type="email"]
+{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height:40px;
+color:rgb(255, 255, 255);
+font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    height: 30px;
+    outline:none;
+    background: rgb(255, 208, 0);
+    color:black;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: #ffe600;
+    color:rgb(0, 0, 0);
+}
+::-webkit-input-placeholder{
+    color: rgb(202, 199, 199);
+}
+
+footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    background:  rgba(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    height: 6%;
+    
+}  
+.foot{
+    color: white;
+    text-transform: capitalize;
+    font-style: italic;
+
+}
+
+.main{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+ 
+    width:100%;
+    height: 600px;
+
+    
+
+}
+.schoolbox{
+    position: fixed;
+    top: 30%;
+    left: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:220px;
+    max-height: 100%;
+    height: 350px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    
+
+}
+
+.collegebox{
+    position: fixed;
+    top: 30%;
+    left: 43%;
+    display: flex;
+    flex-direction: column;
+    width:220px;
+    max-height: 100%;
+    height: 350px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    
+
+}
+
+.coachingbox{
+    position: fixed;
+    top: 30%;
+    left: 73%;
+    display: flex;
+    flex-direction: column;
+    width:220px;
+    max-height: 100%;
+    height: 350px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+
+    
+
+}
+
+.schoolbutton{
+    margin: 10px;
+    width: 90%;
+    height:30px;
+    background-color: transparent;
+    border-radius: 15px;
+    border:none;
+    color: white;
+}
+
+.collegebutton{
+    margin: 10px;
+    width: 90%;
+    height:30px;
+    background-color: transparent;
+    border-radius: 15px;
+    border:none;
+    color: white;
+}
+
+.coachingbutton{
+    margin: 10px;
+    width: 90%;
+    height:30px;
+    background-color: transparent;
+    border-radius: 15px;
+    border:none;
+    color: white;
+}
+
+.schoolheading{
+    margin: 8px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.collegeheading{
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.coachingheading{
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.schoolbutton:hover {
+    background-color: white;
+    color: black;
+    transition:0.25s;
+    border: none;
+    cursor: pointer;
+}
+
+.collegebutton:hover {
+    background-color: white;
+    color: black;
+    transition:0.25s;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.collegebutton:hover {
+    background-color: white;
+    color: black;
+    transition:0.3s;
+    border: none;
+    cursor: pointer;
+}
+

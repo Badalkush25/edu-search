@@ -1,0 +1,9 @@
+<div class="school-list-page">
+    <div class="btn">
+        <li *ngFor = "let school of schoolList">
+            <button (click)="onSchoolClick(school)">
+                {{ school }}
+            </button>
+        </li>
+    </div>
+</div>
