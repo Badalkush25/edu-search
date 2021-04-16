@@ -57,18 +57,7 @@
             
             
        
-        {
-            "name": "Army Public School",
-            "location": "Pune",
-            "block": "Pune city",
-            "information": "APS.txt",
-            "board": "CBSE",
-            "image": "APS.jpg",
-            "typeOfSchool": "co-ed",
-            "email": "abc@gmail",
-            "contact": "2342",
-            "address": "fsghshs"
-        },
+       
         {
             "name": "Gurukul English Medium School",
             "location": "Pune",
