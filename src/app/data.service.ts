@@ -155,6 +155,7 @@ export class DataService {
     this.homeInstituteType = instituteType;
     this.allInfo = this.allData[this.homeInstituteType]
     .filter(value => value.name === this.homeInstitute)[0]
+    console.log(this.allInfo);
   }
 
 }

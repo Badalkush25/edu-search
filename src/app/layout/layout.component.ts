@@ -24,12 +24,12 @@ export class LayoutComponent implements OnInit {
   }
 
   goToCoaching(name: string) {
-    this.dataService.selectInstitute('college', name);
+    this.dataService.selectInstitute('coaching', name);
     this.router.navigate(['/institute']);
   }
 
   goToCollege(name: string) {
-    this.dataService.selectInstitute('coaching', name);
+    this.dataService.selectInstitute('college', name);
     this.router.navigate(['/institute']);
   }
 

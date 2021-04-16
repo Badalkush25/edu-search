@@ -6,11 +6,16 @@
 
 .school-list-page{
     background: url("../../assets/images/CRV.jpg" );
-    background-origin: content-box;
-    height:100vh;
+    /* background-origin: content-box; */
     background-size: cover;
-    background-position: 0vmax;
+    background-repeat: no-repeat;
+   
+    background-color: rgb(43, 42, 42);
+    height: 1500px;
+   
+    position:static;
 }
+
 
 .Header{
   font-size: x-large;
@@ -35,6 +40,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    box-shadow: white;
 }
 
 .btn button{
@@ -47,7 +53,9 @@
     border-radius: 20px;
     display: list-item;
     z-index: -1;
+   
 }
+
 
 
 
