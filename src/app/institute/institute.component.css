@@ -6,15 +6,17 @@
 }
 .institutebody{
     
-    background-color: rgb(245, 180, 0) ;
+    background-image: url(../../assets/images/4028065.jpg);
+    background-size: cover;
+    height: max-content;
 }
 
 .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 140px;
+    position: fixed;
+    left: 10%;
    
     
     background: white;

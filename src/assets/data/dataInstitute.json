@@ -567,17 +567,103 @@
             
         },
         {
-            "name": "",
+            "name": " MIT Junior College Of Science And Commerce",
             "location": "Pune",
-            "block": "",
-            "information": "",
-            "board": "",
-            "image": "",
+            "block": "Pune city",
+            "information": "MJCOSAC.txt",
+            "board": "HSC",
+            "image": "MJCOSAC.jpg",
             "typeOfSchool": "co-ed",
-            "email": "",
-            "contact": "",
-            "address": ""
+            "email": " mitjuniorcollege@yahoo.in ",
+            "contact": "+91 7530000802 ",
+            "address": " More Vidyalaya Chowk, Jijau Mahasaheb Marg, Pune, Maharashtra 411038 "
         },
+        {
+            "name": "Dr. Kalmadi Shamrao Junior College ",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "DKSJC.txt",
+            "board": "HSC",
+            "image": "DKSJC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": " kalmadijuniorcollege@kaveri.edu.in ",
+            "contact": "+91-20-25452278 ",
+            "address": " S. No. 36, Plot No. 3, Ganesh Nagar Rd, Erandwane, Pune, Maharashtra 411038"
+        },
+        {
+            "name": " MES Bakshikshan Junior College",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "MBJC.txt",
+            "board": "HSC",
+            "image": "MBJC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": " bsmsch@yahoo.com ",
+            "contact": " 020-25435733",
+            "address": " 131, Chatrapati Rajaram Maharaj Path, Mayur Colony, Kothrud, Pune, Maharashtra 411038"
+        },
+        {
+            "name": " Arihant College Of Arts, Commerce And Science",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "ACOACAS.txt",
+            "board": "HSC",
+            "image": "ACOACAS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": " acsr.admin@arihantacs.edu.in ",
+            "contact": " 020-67240900",
+            "address": " Solapur Bazar Road Vijaya Bank, Camp, Pune, Maharashtra 411001"
+        },
+        {
+            "name": " Asian Junior College Of Science Commerce And Arts",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "AJCOSCAA.txt",
+            "board": "HSC",
+            "image": "AJCOSCAA.jpg",
+            "typeOfSchool": "co-ed",
+            "email": " asianacademypune@gmail.com ",
+            "contact": "020-24690620 ",
+            "address": "No28, 15/16, Dhayari Narhe Rd, Ashtavinayak Industrial Estate, Narhe, Pune, Maharashtra 411041 "
+        },
+        {
+            "name": " Yashwantrao Mohite College Of Arts Science And Commerce",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "YMCOASAC.txt",
+            "board": "HSC",
+            "image": "YMCOASAC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": " ymc@bharatividyapeeth.edu ",
+            "contact": "020-25433383 ",
+            "address": " Jijau Mahasaheb Marg, Rambaug Colony, Erandwane, Pune, Maharashtra 411038"
+        },
+        {
+            "name": "Sinhgad College Of Arts, Commerce And Science ",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "SCOACAS.txt",
+            "board": "HSC",
+            "image": "SCOACAS.jpg",
+            "typeOfSchool": "co-ed",
+            "email": " - ",
+            "contact": " +91-20-25431001",
+            "address": "S.No.9/1/5 Off West. Bypass Highway, Ambegaon BK, Pune, Maharashtra 411041 "
+        },
+        {
+            "name": " Suryadatta Junior College",
+            "location": "Pune",
+            "block": "Pune city",
+            "information": "SJC.txt",
+            "board": "HSC",
+            "image": "SJC.jpg",
+            "typeOfSchool": "co-ed",
+            "email": " info@suryadatta.edu.in ",
+            "contact": "8956943822 ",
+            "address": "Patil Nagar, Bavdhan, Pune, Maharashtra 411021 "
+        },
+        
+
         {
             "name": "",
             "location": "Pune",
