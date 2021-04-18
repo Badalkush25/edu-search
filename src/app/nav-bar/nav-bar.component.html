@@ -26,11 +26,17 @@
         <div class="logo-text"><p>EduSearch</p></div>
     </div>
 
-    <div class="search-bar">
-        <form>
-            <input type="search" id="a" class="search-data" placeholder="Search" >
-        </form>
+    <div class="dropdown">
+        <div id="myDropdown" class="dropdown-content">
+            <input autocomplete="off" (keyup)="makeSearch($event.target.value)" type="search" id="a" class="search-data" placeholder="Search" >
+            <li class="options" *ngFor="let item of showInstitutes">
+                <button class="my-button" (click)="onSearchOptionClick(item.name, item.type)">
+                    {{ item.name }}
+                </button>
+            </li>
+        </div>
     </div>
+    
 
     <div class="navigation-buttons-container">
         <div [ngClass]="isHomeActive? 'active-button': ''" class="nav-button">

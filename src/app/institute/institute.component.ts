@@ -19,11 +19,15 @@ export class InstituteComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.organizationDetails = this.dataService.getOrganizationDetails();
-    console.log(this.organizationDetails);
-    this.textFileService.getFile(this.organizationDetails.information)
-      .subscribe((text) => this.orgInfo = text);
 
+    this.dataService.dataUpdate$.subscribe(
+      () => {
+        this.organizationDetails = this.dataService.getOrganizationDetails();
+      console.log(this.organizationDetails);
+      this.textFileService.getFile(this.organizationDetails.information)
+      .subscribe((text) => this.orgInfo = text);
+      }
+    )
     
   }
 

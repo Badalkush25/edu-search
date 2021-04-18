@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 import * as instituteData from '../assets/data/dataInstitute.json';
 
 
@@ -15,6 +16,8 @@ interface InstituteData {
   providedIn: 'root'
 })
 export class DataService {
+
+  dataUpdate$ = new BehaviorSubject<boolean>(false);
 
   private institutes: InstituteData[];
 
@@ -154,8 +157,23 @@ export class DataService {
     this.homeInstitute = instituteName;
     this.homeInstituteType = instituteType;
     this.allInfo = this.allData[this.homeInstituteType]
-    .filter(value => value.name === this.homeInstitute)[0]
-    console.log(this.allInfo);
+    .filter(value => value.name === this.homeInstitute)[0];
+    this.dataUpdate$.next(true);
   }
+
+  getDataForSearch() {
+    const sendDataForSearch = [];
+    for( let insitute in this.allData) {
+      this.allData[insitute].forEach(element => {
+        sendDataForSearch.push({
+          name: element.name,
+          type: insitute
+        })
+      });
+    }
+    return sendDataForSearch;
+  }
+
+
 
 }

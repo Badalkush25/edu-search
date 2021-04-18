@@ -19,7 +19,9 @@ export class NavBarComponent implements OnInit {
   isSchoolActive = false
   isCollegeActive = false
   isCoachingActive = false
-  isAboutActive = false
+  isAboutActive = false;
+  showInstitutes: Array<any> = [];
+  allInstitutes: Array<any> = [];
 
 
   constructor(private router: Router, private dataService: DataService) { }
@@ -57,8 +59,39 @@ export class NavBarComponent implements OnInit {
     this.router.navigate([`/${button}`]);
   }
 
+  makeSearch(searchStr) {
+    searchStr = searchStr.toLowerCase();
+    setTimeout(() => {
+      if(searchStr.length>=1) {
+        this.showInstitutes = this.allInstitutes.filter(
+          (val) => val.name.toLowerCase().indexOf(searchStr) > -1
+        )
+      } else {
+        this.showInstitutes = [];
+      }
+    },250)
+  }
+
+  onSearchOptionClick(name, type) {
+    this.makeAllOff();
+    this.dataService.selectInstitute(type, name);
+    switch(type) {
+      case this.school:
+        this.isSchoolActive = true;
+        break;
+      case this.coaching:
+        this.isCoachingActive = true;
+        break;
+      case this.college:
+        this.isCollegeActive = true;
+    }
+    this.showInstitutes = [];
+    this.router.navigate(['/institute']);
+  }
+
 
   ngOnInit(): void {
+    this.allInstitutes = this.dataService.getDataForSearch();
   }
 
 }
