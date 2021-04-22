@@ -121,10 +121,11 @@ nav form .search-data {
 .logo-text, .logo-icon {
     margin: auto;
     padding-left: 6px;
+
 }
 
 .logo-text {
-    font-size: large;
+    font-size:larger;
     font-weight: 500;
 }
 

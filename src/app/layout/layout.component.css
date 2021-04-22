@@ -119,7 +119,7 @@ footer{
 }
 .schoolbox{
     position: relative;
-    top: 0%;
+    top: -2%;
     left: 13%;
     display: flex;
     flex-direction: column;
@@ -132,10 +132,14 @@ footer{
     
 
 }
+.schoolbox:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 19px rgba(7, 7, 7, 0.9);
+}
 
 .collegebox{
     position: relative;
-    top: 0%;
+    top: -2%;
     left: 0%;
     display: flex;
     flex-direction: column;
@@ -147,10 +151,14 @@ footer{
     
 
 }
+.collegebox:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 19px rgba(7, 7, 7, 0.9);
+}
 
 .coachingbox{
     position: relative;
-    top: 0%;
+    top: -2%;
     left: -13%;
     display: flex;
     flex-direction: column;
@@ -163,6 +171,11 @@ footer{
     
 
 }
+.coachingbox:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 19px rgba(7, 7, 7, 0.9);
+   
+}
 
 .schoolbutton{
     margin: 10px;
@@ -173,6 +186,9 @@ footer{
     border:none;
     color: white;
 }
+/* .schoolbutton:hover{
+    transform: scale(1.05);
+} */
 
 .collegebutton{
     margin: 10px;
@@ -235,5 +251,9 @@ footer{
     transition:0.3s;
     border: none;
     cursor: pointer;
+}
+
+h1{
+    color: white;
 }
 

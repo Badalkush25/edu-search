@@ -5,13 +5,14 @@
 }
 
 .school-list-page{
-    background: url("../../assets/images/CRV.jpg" );
+    background: url("../../assets/images/631.jpg" );
     /* background-origin: content-box; */
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: left;
    
     
-    height: 1500px;
+    height: 2000px;
    
     position:static;
 }
@@ -40,6 +41,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    top:2%;
+    left: -8%;
     box-shadow: white;
 }
 
@@ -53,6 +56,9 @@
     border-radius: 20px;
     display: list-item;
     z-index: -1;
+    list-style-type: none;
+    box-shadow: 1px 1px 9px rgba(0,0,0,1);
+    
    
 }
 
@@ -63,8 +69,16 @@
     text-decoration: none;
     color: black;
 }
+
 .btn button:hover{
-    background-color: rgb(255, 229, 157);
-    opacity: 0.9;
+    background-color: rgb(250, 243, 243);
     
+    opacity: 0.9;
+    transform: scale(1.15);
+    
+}
+
+.btn li{
+    list-style-type: none;
+    padding:7px;
 }
