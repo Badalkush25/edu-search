@@ -40,9 +40,9 @@
 .btn{
     align-items: center;
     justify-content: center;
-    position: relative;
+    /* position: relative;
     top:2%;
-    left: -8%;
+    left: -8%; */
     box-shadow: white;
 }
 
